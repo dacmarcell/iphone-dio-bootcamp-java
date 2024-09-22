@@ -22,21 +22,21 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 ```mermaid
 classDiagram
     class ReprodutorMusical {
-        +tocar()
-        +pausar()
-        +selecionarMusica(String musica)
+      +tocar()
+      +pausar()
+      +selecionarMusica(String musica)
     }
 
     class AparelhoTelefonico {
-        +ligar(String numero)
-        +atender()
-        +iniciarCorreioVoz()
+      +ligar(String numero)
+      +atender()
+      +iniciarCorreioVoz()
     }
 
     class NavegadorInternet {
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
+      +exibirPagina(String url)
+      +adicionarNovaAba()
+      +atualizarPagina()
     }
 
     class iPhone {
